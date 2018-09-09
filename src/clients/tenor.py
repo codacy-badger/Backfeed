@@ -24,6 +24,11 @@ def search(term: str = '', key: str = '', limit: int = 1) -> dict:
         -----
 
         >>> search(key='', term='')
+
+        Return
+        ------
+
+        Dict containing gif data
     '''
 
     if term == '' or key == '':

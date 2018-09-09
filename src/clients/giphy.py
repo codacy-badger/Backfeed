@@ -22,7 +22,7 @@ def search(term: str = '', key: str = '', limit: int = 1, rating: str = 'g', lan
 
         rating:
             Results by specified rating
-        
+
         lang:
             Language for regional content
 
@@ -30,6 +30,11 @@ def search(term: str = '', key: str = '', limit: int = 1, rating: str = 'g', lan
         -----
 
         >>> search(key='', term='')
+
+        Return
+        ------
+
+        Dict containing gif data
     '''
 
     if term == '' or key == '':
